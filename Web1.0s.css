@@ -282,7 +282,7 @@ section {
 
 /* Typing Effect */
 @keyframes typing {
-    0% { content: " |"; }
+    0% { content: " | "; }
     25% { content: "Video Editor|"; } /* Typo corrected */
     50% { content: "Creative Thinker|";}
     75% { content: "Problem Solver|"; }
@@ -309,7 +309,7 @@ section {
 }
 
 .social-icons a {
-    display: inline-block;
+    display: flex;
     padding: 10px;
     transition: transform 0.3s ease, color 0.3s ease;
     color: var(--text-light); /* Default icon color */
