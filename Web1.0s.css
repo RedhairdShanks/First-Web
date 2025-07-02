@@ -39,7 +39,7 @@ body {
     background-repeat: no-repeat;
     background-position: center center; /* Center the background image */
     background-attachment: fixed; /* Keep background fixed when scrolling */
-    min-height: 100vh;
+    min-height: 100%;
     color: var(--text-light);
     font-family: 'Inter', sans-serif; /* Default font for the body */
     overflow-x: hidden; /* Prevent horizontal scrollbar from animations */
