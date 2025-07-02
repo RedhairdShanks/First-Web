@@ -690,7 +690,7 @@ section {
     }
 }
 
-@media (max-width: 500px) {
+@media (max-width: 200px) {
     .header {
         padding: 10px 15px;
     }
