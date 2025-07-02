@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Abyssinica+SIL&display=swap');
-/* Make sure all desired fonts are imported here */
+
 
 
 /* CSS Variables */
@@ -170,7 +170,7 @@ nav li:first-child{ margin-right: auto; }
   .menu-button{ display: block; }
 }
 
-@media(max-width: 400px){
+@media(max-width: 400%){
   .sidebar{ width: 100%; }
 }
 /*NAV & Burger ends*/
@@ -690,7 +690,7 @@ section {
     }
 }
 
-@media (max-width: 320px) {
+@media (max-width: 100%) {
     .header {
         padding: 8px 10px;
     }
