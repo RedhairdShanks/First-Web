@@ -180,7 +180,7 @@ section {
     display: grid;
     place-items: center;
     align-content: center;
-    min-height: 100vh;
+    min-height: 100%;
     padding: 80px 20px; /* Add padding for content spacing */
     position: relative; /* For the hidden animation */
 }
@@ -212,7 +212,7 @@ section {
     align-items: center;
     justify-content: center;
     width: 100%;
-    max-width: 1000px;
+    max-width: 100px;
     text-align: center;
     z-index: 2;
     padding-top: 60px; /* Account for fixed header */
