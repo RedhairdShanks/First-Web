@@ -362,7 +362,7 @@ section {
 }
 
 .glass_container {
-    max-width: 900px; /* More reasonable max-width */
+    max-width: 800px; /* More reasonable max-width *//*Updated*/
     width: 100%; /* Responsive width */
     padding: 35px;
     background-color: rgba(0, 0, 0, 0.1);
