@@ -12,13 +12,24 @@ const observer = new IntersectionObserver((entries) => {
 const hiddenElements = document.querySelectorAll('.hidden');
 hiddenElements.forEach((el) => observer.observe(el));
 
+
+
 /*Burger bar*/
-function showSidebar(){
-  const sidebar= document.querySelector('.sidebar')
-  sidebar.style.display = 'flex' /* Show the sidebar */
+
+function showSidebar() {
+  const sidebar = document.querySelector('.sidebar');
+  sidebar.classList.add('show-sidebar');
 }
 
 function hideSidebar() {
-  const sidebar = document.querySelector('.sidebar')
-  sidebar.style.display = 'none' /* Hides the sidebar */
+  const sidebar = document.querySelector('.sidebar');
+  sidebar.classList.remove('show-sidebar');
 }
+
+// Close the sidebar when a link is clicked
+const sidebarLinks = document.querySelectorAll('.sidebar li a');
+sidebarLinks.forEach(link => {
+  link.addEventListener('click', () => {
+    hideSidebar();
+  });
+});
